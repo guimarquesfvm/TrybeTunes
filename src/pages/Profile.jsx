@@ -6,7 +6,6 @@ import redheart from '../img/Vector (2).png';
 
 function Profile() {
   const { username, favorites, setFavorites, handleFavorite } = useContext(AppContext);
-  useEffect(() => console.log(favorites), [favorites]);
 
   return (
   <>
